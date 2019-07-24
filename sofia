@@ -1,0 +1,72 @@
+#Evil SoFiA
+import re
+import time 
+print time.strftime("                     %I:%M:%S")
+time.sleep(0.5)
+import os
+ax = os.system 
+ax("cls")
+ax("color 4 ")
+print '''
+    ___ _   _  _ _      __   __  ___ _  __   
+   | __| \ / || | |   /' _/ /__\| __| |/  \  
+   | _|`\ V /'| | |_  `._`.| \/ | _|| | /\ | 
+   |___| \_/  |_|___| |___/ \__/|_| |_|_||_| 
+'''
+time.sleep(5)
+ax("color a")
+print "         Cyber Hacking" + "|" + "Cyber Hacking"
+print '''
+  
+'''
+time.sleep(2)
+ax("color 7")
+Bin = int(input("Digite los primeros 8 digitos del Bin: "))
+lista = ['']
+Intro = lista.append(Bin)
+
+#Primer Bin
+
+
+bin11 = int(input("Introduce el digito numero DIEZ del primer Bin: "))
+if bin11 >= 0 and bin11 <= 9:
+    print("")
+else:
+    print("Introduce un numero correcto :) ")
+    bin11 = int(input("Vuelve a introducir el digito: "))
+
+bin12 = int(input("Introduce el digito numero ONCE del primer Bin: "))
+if bin12 >= 0 and bin12 <= 9:
+    print("")
+else:
+    print("Introduce un numero correcto :)")
+    bin12 = int(input("Vuelve a introducir el digito: "))
+
+#Segundo Bin
+
+bin21 = int(input("Introduce el digito numero DIEZ del SEGUNDO Bin: "))
+if bin21 >= 0 and bin21 <= 9:
+    print("")
+else:
+    print("Introduce un numero correcto :) ")
+    bin21 = int(input("Vuelve a introducir el digito: "))
+
+bin22 = int(input("Introduce el digito numero ONCE del SEGUNDO Bin: "))
+if bin22 >= 0 and bin22 <= 9:
+    print("")
+else:
+    print("Introduce un numero correcto :) ")
+    bin22 = int(input("Vuelve a introducir el digito: "))
+
+#Algoritmo
+
+A = int(bin11 + bin21 / 2)*5
+B = int(bin12 + bin22 / 2)*5
+C = A + B
+
+#Agregar los digitos
+
+Intro2 = lista.append(C)
+
+print("".join( repr(e) for e in lista))
+#bog , monster 
